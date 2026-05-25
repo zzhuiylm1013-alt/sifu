@@ -1,0 +1,4 @@
+{
+    "cortex-debug.armToolchainPath": "C:\\tools\\arm-gcc\\xpack-arm-none-eabi-gcc-14.2.1-1.1\\bin",
+    "cortex-debug.openocdPath": "C:\\Users\\Administrator\\scoop\\shims\\openocd.exe"
+}

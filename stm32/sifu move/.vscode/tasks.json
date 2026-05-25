@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build (make all)",
+            "type": "shell",
+            "command": "make",
+            "args": ["all"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "C:\\Users\\Administrator\\scoop\\shims;C:\\tools\\arm-gcc\\xpack-arm-none-eabi-gcc-14.2.1-1.1\\bin;${env:PATH}"
+                }
+            }
+        },
+        {
+            "label": "Clean build",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean", "all"],
+            "group": "build",
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "C:\\Users\\Administrator\\scoop\\shims;C:\\tools\\arm-gcc\\xpack-arm-none-eabi-gcc-14.2.1-1.1\\bin;${env:PATH}"
+                }
+            }
+        },
+        {
+            "label": "Flash to STM32",
+            "type": "shell",
+            "command": "openocd",
+            "args": [
+                "-f", "interface/stlink.cfg",
+                "-f", "target/stm32f1x.cfg",
+                "-c", "program ${workspaceFolder}/sifu_move.elf verify reset exit"
+            ],
+            "group": "none",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "C:\\Users\\Administrator\\scoop\\shims;C:\\tools\\arm-gcc\\xpack-arm-none-eabi-gcc-14.2.1-1.1\\bin;${env:PATH}"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+backups/
+*.exe
+*.pdf
+*.elf
+*.zip
+*.bin
+*.hex
+code test/sorf/

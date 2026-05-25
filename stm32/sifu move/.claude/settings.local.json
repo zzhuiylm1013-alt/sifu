@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make CC=/c/tools/arm-gcc/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-gcc OBJCOPY=/c/tools/arm-gcc/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-objcopy SZ=/c/tools/arm-gcc/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-size 'AS=/c/tools/arm-gcc/xpack-arm-none-eabi-gcc-14.2.1-1.1/bin/arm-none-eabi-gcc -x assembler-with-cpp' clean)",
+      "Bash(openocd -f interface/stlink.cfg -f target/stm32f1x.cfg -c \"transport select hla_swd; adapter speed 100; init; reset halt; program sifu_move.elf verify; reset; shutdown\")"
+    ]
+  }
+}
