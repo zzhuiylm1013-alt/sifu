@@ -1,11 +1,25 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
+
+# Build artifacts
 backups/
 *.exe
+*.exe.bak
 *.pdf
 *.elf
 *.zip
 *.bin
 *.hex
-code test/sorf/
+
+# STM32 compiled objects
+*.o
+*.d
+*.lst
+*.map
+
+# PyInstaller
+code test/sorf/build/
+code test/sorf/dist/
+code test/sorf/*.spec

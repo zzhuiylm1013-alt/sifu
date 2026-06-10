@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<S-FLAG_AmplifierPramerterSet class_version="2.0" use="user" instance_version="10.2" amplifier_version="4.2.8.0" S-TUNE_version="3.1.3.0">
+  <main_param main_no="2" writable="True" repower_PWR="True" name="SC_CONTROL_MODE">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="3" writable="True" repower_PWR="True" name="SC_COMMAND_MODE">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="4" writable="True" repower_PWR="True" name="SC_SLAVE_ADDRESS">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="6" writable="True" repower_PWR="True" name="SC_SCI_CONFIG">
+    <sub_param sub_no="0">
+      <value>5</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="8" writable="True" repower_PWR="True" name="SC_COMM_CONTROL_MODE">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="9" writable="True" repower_PWR="False" name="SC_COMM_OPERATION_MODE">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="11" writable="True" repower_PWR="True" name="SC_COMM_TX_DELAY">
+    <sub_param sub_no="0">
+      <value>3</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="12" writable="True" repower_PWR="False" name="SC_WARNING_LATCH_TIME">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="13" writable="True" repower_PWR="False" name="SC_ALARM_CONTROL">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="32" writable="True" repower_PWR="True" name="PSCI_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="33" writable="True" repower_PWR="True" name="PSCI_CONTROL_MODE_2">
+    <sub_param sub_no="0">
+      <value>4</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="34" writable="True" repower_PWR="True" name="PSCI_PRESCALER">
+    <sub_param sub_no="0">
+      <value>32768</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="36" writable="True" repower_PWR="True" name="PSCI_PRESCALER_DIV">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="48" writable="True" repower_PWR="False" name="ACI1_FILTER_PARAM">
+    <sub_param sub_no="0">
+      <value>16000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="49" writable="True" repower_PWR="False" name="ACI1_FILTER_PARAM_DIV">
+    <sub_param sub_no="0">
+      <value>65535</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="50" writable="True" repower_PWR="False" name="ACI1_KP">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="51" writable="True" repower_PWR="False" name="ACI1_KP_DIV">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="52" writable="True" repower_PWR="False" name="ACI1_LIMIT_H_OVERRIDE">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="53" writable="True" repower_PWR="False" name="ACI1_LIMIT_H_OVERRIDE_DIV">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="54" writable="True" repower_PWR="False" name="ACI1_LIMIT_L_OVERRIDE">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="55" writable="True" repower_PWR="False" name="ACI1_LIMIT_L_OVERRIDE_DIV">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="60" writable="True" repower_PWR="False" name="ACI1_INPUT_OFFSET">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="62" writable="True" repower_PWR="False" name="ACI1_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="64" writable="True" repower_PWR="False" name="PVCC_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="65" writable="True" repower_PWR="False" name="PVCC_CONTROL_MODE_2">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="66" writable="True" repower_PWR="True" name="PVCC_CONTROL_MODE_3">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="67" writable="True" repower_PWR="True" name="PVCC_CONTROL_MODE_4">
+    <sub_param sub_no="0">
+      <value>3</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="68" writable="True" repower_PWR="False" name="PVCC_POSIN_PULSE">
+    <sub_param sub_no="0">
+      <value>40</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="69" writable="True" repower_PWR="False" name="PVCC_POSIN_SPEED">
+    <sub_param sub_no="0">
+      <value>2</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="70" writable="True" repower_PWR="False" name="PVCC_POSIN_COMMAND_SPEED">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="71" writable="True" repower_PWR="False" name="PVCC_POSIN_DELAY">
+    <sub_param sub_no="0">
+      <value>20</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="74" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_1_FREQ">
+    <sub_param sub_no="0">
+      <value>10</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="75" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_1_WIDTH">
+    <sub_param sub_no="0">
+      <value>512</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="76" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_1_HF_GAIN">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="77" writable="True" repower_PWR="False" name="PVCC_CONTROL_MODE_5">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="78" writable="True" repower_PWR="False" name="PVCC_SPEED_FILTER_FIR_DIM_1">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="79" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_1_DEPTH">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="80" writable="True" repower_PWR="True" name="PVCC_POS_FILTER_FIR_DIM_1">
+    <sub_param sub_no="0">
+      <value>25</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="81" writable="True" repower_PWR="True" name="PVCC_POS_FILTER_FIR_DIM_2">
+    <sub_param sub_no="0">
+      <value>10</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="82" writable="True" repower_PWR="True" name="PVCC_CONTROL_MODE_6">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="83" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_2_FREQ">
+    <sub_param sub_no="0">
+      <value>10</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="84" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_2_WIDTH">
+    <sub_param sub_no="0">
+      <value>512</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="85" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_2_HF_GAIN">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="86" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_2_DEPTH">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="87" writable="True" repower_PWR="False" name="PVCC_POS_ERR_LIMIT">
+    <sub_param sub_no="0">
+      <value>196608</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="89" writable="True" repower_PWR="False" name="PVCC_POS_ERR_DELAY">
+    <sub_param sub_no="0">
+      <value>250</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="90" writable="True" repower_PWR="False" name="PVCC_SPEED_ERR_LIMIT">
+    <sub_param sub_no="0">
+      <value>524</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="91" writable="True" repower_PWR="False" name="PVCC_SPEED_ERR_DELAY">
+    <sub_param sub_no="0">
+      <value>250</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="102" writable="True" repower_PWR="False" name="MP_RPP1_GRATE">
+    <sub_param sub_no="0">
+      <value>250</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="103" writable="True" repower_PWR="False" name="MP_RPP1_DRATE">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="106" writable="True" repower_PWR="False" name="MP_AT_GRATE_LIMIT">
+    <sub_param sub_no="0">
+      <value>3000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="110" writable="True" repower_PWR="False" name="MP_AT_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>2</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="113" writable="True" repower_PWR="False" name="PCL_RPP1_CONTROL_LEVEL_ALL">
+    <sub_param sub_no="0">
+      <value>15</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>2</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="114" writable="True" repower_PWR="False" name="PCL_RPP1_CONTROL_LEVEL_FINE">
+    <sub_param sub_no="0">
+      <value>15</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="115" writable="True" repower_PWR="False" name="PCL_RPP1_W1">
+    <sub_param sub_no="0">
+      <value>50</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="116" writable="True" repower_PWR="False" name="PCL_RPP1_W2">
+    <sub_param sub_no="0">
+      <value>200</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="117" writable="True" repower_PWR="False" name="PCL_RPP1_FF1">
+    <sub_param sub_no="0">
+      <value>10000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="118" writable="True" repower_PWR="False" name="PCL_RPP1_FF2">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="119" writable="True" repower_PWR="False" name="PCL_RPP1_WQ">
+    <sub_param sub_no="0">
+      <value>160</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="120" writable="True" repower_PWR="False" name="PCL_RPP1_CONTROL_MODE_2">
+    <sub_param sub_no="1">
+      <value>15</value>
+    </sub_param>
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="121" writable="True" repower_PWR="False" name="PCL_CG_AT_RIGIDITY">
+    <sub_param sub_no="0">
+      <value>24</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="129" writable="True" repower_PWR="False" name="VCL_RPP1_CONTROL_LEVEL_ALL">
+    <sub_param sub_no="0">
+      <value>15</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="130" writable="True" repower_PWR="False" name="VCL_RPP1_CONTROL_LEVEL_FINE">
+    <sub_param sub_no="0">
+      <value>15</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="131" writable="True" repower_PWR="False" name="VCL_RPP1_WS">
+    <sub_param sub_no="0">
+      <value>399</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="132" writable="True" repower_PWR="False" name="VCL_RPP1_FFS">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="133" writable="True" repower_PWR="False" name="VCL_RPP1_WQS">
+    <sub_param sub_no="0">
+      <value>300</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="144" writable="True" repower_PWR="False" name="TCC_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="147" writable="True" repower_PWR="False" name="TCC_LIMIT_OVERRIDE_1">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="148" writable="True" repower_PWR="False" name="TCC_LIMIT_OVERRIDE_2">
+    <sub_param sub_no="0">
+      <value>2000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="151" writable="True" repower_PWR="False" name="TCC_LIMIT_OVERRIDE_ZSPD">
+    <sub_param sub_no="0">
+      <value>2400</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="152" writable="True" repower_PWR="False" name="TCC_SPEED_LIMIT_0">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="160" writable="True" repower_PWR="False" name="TCC_CONTROL_MODE_2">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="162" writable="True" repower_PWR="False" name="TCC_IIR1_FILTER_PARAM">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="168" writable="True" repower_PWR="False" name="TCC_NOTCH_FILTER_FREQ">
+    <sub_param sub_no="0">
+      <value>2500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="169" writable="True" repower_PWR="False" name="TCC_NOTCH_FILTER_WIDTH">
+    <sub_param sub_no="0">
+      <value>8</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="170" writable="True" repower_PWR="False" name="TCC_NOTCH_FILTER_DEPTH">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="171" writable="True" repower_PWR="False" name="TCC_NOTCH_FILTER_2_FREQ">
+    <sub_param sub_no="0">
+      <value>2500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="172" writable="True" repower_PWR="False" name="TCC_NOTCH_FILTER_2_WIDTH">
+    <sub_param sub_no="0">
+      <value>8</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="173" writable="True" repower_PWR="False" name="TCC_NOTCH_FILTER_2_DEPTH">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="224" writable="True" repower_PWR="False" name="BC_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="225" writable="True" repower_PWR="False" name="BC_CONTROL_MODE_2">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="226" writable="True" repower_PWR="False" name="BC_DBRAKE_NORMAL_PERIOD">
+    <sub_param sub_no="0">
+      <value>313</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="227" writable="True" repower_PWR="False" name="BC_DBRAKE_SPEED">
+    <sub_param sub_no="0">
+      <value>17</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="228" writable="True" repower_PWR="False" name="BC_DBRAKE_URGENT_PERIOD">
+    <sub_param sub_no="0">
+      <value>62</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="229" writable="True" repower_PWR="False" name="BC_ZSPD__FILTER_FIR_DIM">
+    <sub_param sub_no="0">
+      <value>25</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="232" writable="True" repower_PWR="False" name="BC_CONTROL_MODE_3">
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="233" writable="True" repower_PWR="False" name="BC_CONTROL_MODE_4">
+    <sub_param sub_no="0">
+      <value>2</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="234" writable="True" repower_PWR="False" name="BC_MBRK_OFF_DELAY">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="235" writable="True" repower_PWR="False" name="BC_MBRK_OFF_SPEED">
+    <sub_param sub_no="0">
+      <value>17</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="236" writable="True" repower_PWR="False" name="BC_ZSPD_BRK_DELAY">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="237" writable="True" repower_PWR="False" name="BC_SVOFF_DELAY">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="238" writable="True" repower_PWR="False" name="BC_MBRAKE_RELEASE_DELAY">
+    <sub_param sub_no="0">
+      <value>25</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="239" writable="True" repower_PWR="False" name="BC_ZSPD_BRK_DECELATION_TIME">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="257" writable="True" repower_PWR="True" name="EIO_ENC_CONTROL_MODE_2">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="259" writable="True" repower_PWR="False" name="EIO_ENC_CONTROL_MODE_4">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="267" writable="True" repower_PWR="False" name="EIO_ENC_TEMP_THRESHOLD">
+    <sub_param sub_no="0">
+      <value>85</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="268" writable="True" repower_PWR="False" name="EIO_ENC_BATT_VOL_THRESHOLD">
+    <sub_param sub_no="0">
+      <value>24</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="272" writable="True" repower_PWR="True" name="EIO_QEPO_CONTROL_MODE_1">
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="276" writable="True" repower_PWR="True" name="EIO_QEPO_PRESCALAR">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="278" writable="True" repower_PWR="True" name="EIO_QEPO_PRESCALAR_DIV">
+    <sub_param sub_no="0">
+      <value>32768</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="285" writable="True" repower_PWR="False" name="EIO_QEPO_FREQ_LIMIT">
+    <sub_param sub_no="0">
+      <value>1125</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="286" writable="True" repower_PWR="False" name="EIO_QEPO_FREQ_ERROR_DELAY">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="288" writable="True" repower_PWR="False" name="ACI2_FILTER_PARAM">
+    <sub_param sub_no="0">
+      <value>16000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="289" writable="True" repower_PWR="False" name="ACI2_FILTER_PARAM_DIV">
+    <sub_param sub_no="0">
+      <value>65535</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="290" writable="True" repower_PWR="False" name="ACI2_KP">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="291" writable="True" repower_PWR="False" name="ACI2_KP_DIV">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="292" writable="True" repower_PWR="False" name="ACI2_LIMIT_H_OVERRIDE">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="293" writable="True" repower_PWR="False" name="ACI2_LIMIT_H_OVERRIDE_DIV">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="294" writable="True" repower_PWR="False" name="ACI2_LIMIT_L_OVERRIDE">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="295" writable="True" repower_PWR="False" name="ACI2_LIMIT_L_OVERRIDE_DIV">
+    <sub_param sub_no="0">
+      <value>3500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="300" writable="True" repower_PWR="False" name="ACI2_INPUT_OFFSET">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="302" writable="True" repower_PWR="False" name="ACI2_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="305" writable="True" repower_PWR="False" name="PSUC_ACPF_DELAY">
+    <sub_param sub_no="0">
+      <value>80</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="357" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_3_FREQ">
+    <sub_param sub_no="0">
+      <value>10</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="358" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_3_WIDTH">
+    <sub_param sub_no="0">
+      <value>512</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="359" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_3_HF_GAIN">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="360" writable="True" repower_PWR="True" name="PVCC_POS_IIR_NOTCH_3_DEPTH">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="363" writable="True" repower_PWR="False" name="PVCC_POS_ERR_WARN_LIMIT">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="365" writable="True" repower_PWR="False" name="PVCC_POS_ERR_WARN_DELAY">
+    <sub_param sub_no="0">
+      <value>250</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="385" writable="True" repower_PWR="False" name="VCG_JOG_ACCELATION_TIME">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="386" writable="True" repower_PWR="False" name="VCG_JOG_DECELATION_TIME">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="387" writable="True" repower_PWR="False" name="VCG_JOG_SPEED">
+    <sub_param sub_no="0">
+      <value>300</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="388" writable="True" repower_PWR="False" name="VCG_COMMAND_MODE_1">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="390" writable="True" repower_PWR="False" name="VCG_TSC_ACCELATION_TIME">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="391" writable="True" repower_PWR="False" name="VCG_TSC_DECELATION_TIME">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="392" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_1">
+    <sub_param sub_no="0">
+      <value>500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="393" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_2">
+    <sub_param sub_no="0">
+      <value>1000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="394" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_3">
+    <sub_param sub_no="0">
+      <value>1500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="395" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_4">
+    <sub_param sub_no="0">
+      <value>2000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="396" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_5">
+    <sub_param sub_no="0">
+      <value>2500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="397" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_6">
+    <sub_param sub_no="0">
+      <value>3000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="398" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_7">
+    <sub_param sub_no="0">
+      <value>4000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="399" writable="True" repower_PWR="False" name="VCG_TSC_SPEED_8">
+    <sub_param sub_no="0">
+      <value>6000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="642" writable="True" repower_PWR="False" name="PCG_RUNNING_MODE_1">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="643" writable="True" repower_PWR="True" name="PCG_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="644" writable="True" repower_PWR="False" name="PCG_RUNNING_MODE_2">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="645" writable="True" repower_PWR="False" name="PCG_HOME_CONTROL_MODE_1">
+    <sub_param sub_no="0">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="646" writable="True" repower_PWR="False" name="PCG_HOME_CONTROL_MODE_2">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="2">
+      <value>1</value>
+    </sub_param>
+    <sub_param sub_no="3">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="647" writable="True" repower_PWR="False" name="PCG_HOME_CONTROL_MODE_3">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+    <sub_param sub_no="1">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="648" writable="True" repower_PWR="False" name="PCG_HOME_SPEED">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="649" writable="True" repower_PWR="False" name="PCG_HOME_CREEP_SPEED">
+    <sub_param sub_no="0">
+      <value>10</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="650" writable="True" repower_PWR="False" name="PCG_HOME_ACC_DEC_TIME">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="651" writable="True" repower_PWR="False" name="PCG_HOME_SHIFT_DIST">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="653" writable="True" repower_PWR="False" name="PCG_HOME_POS_DATA">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="655" writable="True" repower_PWR="False" name="PCG_HOME_STOPPER_TIME">
+    <sub_param sub_no="0">
+      <value>100</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="656" writable="True" repower_PWR="False" name="PCG_HOME_T_LIMIT">
+    <sub_param sub_no="0">
+      <value>500</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="657" writable="True" repower_PWR="False" name="PCG_HOME_DIST_ORG_SENS">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="659" writable="True" repower_PWR="False" name="PCG_HOME_TIMEOUT">
+    <sub_param sub_no="0">
+      <value>60000</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="112" writable="True" repower_PWR="False" name="Change Tuning Mode">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="128" writable="True" repower_PWR="False" name="Change Tuning Mode">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+  <main_param main_no="466" writable="True" repower_PWR="False" name="SI2_TYPE_AMP_2">
+    <sub_param sub_no="0">
+      <value>0</value>
+    </sub_param>
+  </main_param>
+</S-FLAG_AmplifierPramerterSet>
